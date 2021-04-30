@@ -96,11 +96,16 @@ h1 {
 				font-size: 1.2em;
 			}
 	#topbutton { 
-		position: fixed; 
+		position: fixed;
 		right: 2em;
 		bottom: 2em;
 		display: none;
 		z-index: 9999;
+	}
+
+	#topbutton img {
+		width: 60px;
+		height: 50px;
 	}
 
 	#main {
@@ -108,6 +113,10 @@ h1 {
 	}
 	#wrapper > * > .inner {
 		padding: 0 1.25em;
+	}
+
+	#main .inner header {
+		margin-left: 20px;
 	}
 
 	/* titles */
@@ -183,9 +192,9 @@ h1 {
 				transform: translateX(-50%);
 				z-index: 1;
 				color:white;
-				font-size: 26px;
-				width: 140px;
-				font-weight: bold;
+				font-size: 30px;
+				width: 100%;
+				font-weight: 900;
 				letter-spacing: 5px;
 		}
 		article:hover .imtext {
@@ -218,7 +227,7 @@ h1 {
 		background-color:#fcc78f;
 	}
 	.style3 {
-		background-color:#ffd7fe;
+		background-color:#f868b0;
 	}
 	.style4 {
 		background-color:#FFB1BC;
@@ -227,5 +236,5 @@ h1 {
 		background-color:#E57733;
 	}
 	.style6 {
-		background-color:#eaff9d;
+		background-color:#b7dd2f;
 	}
